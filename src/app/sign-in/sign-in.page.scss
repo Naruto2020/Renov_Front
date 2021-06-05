@@ -1,0 +1,59 @@
+ion-header {
+  ion-toolbar {
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+
+/* media queries */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  #connexion {
+    margin-left: 40%;
+  }
+  #container {
+    margin-left: 40%;
+  }
+}
+
+@media all and (min-width: 540px) and (max-width: 720px) {
+  .example-container .mat-form-field + .mat-form-field {
+    margin-left: 5px;
+  }
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) {
+  .example-container .mat-form-field + .mat-form-field {
+    margin-left: 5px;
+  }
+  #connexion {
+    margin-left: 40%;
+  }
+  #container {
+    margin-left: 40%;
+  }
+}
+/*.example-container .mat-form-field + .mat-form-field {
+  margin-left: 5px;
+}
+
+.example-container .mat-form-field {
+  color: #ff9100;
+  font-size: 0.7em;
+  width: 320px;
+}
+
+.example-container form {
+  margin-bottom: 20px;
+}
+
+.example-container form > * {
+  margin: 5px 0;
+}
+
+mat-label {
+  font-weight: bold;
+  color: #ff9100;
+}*/

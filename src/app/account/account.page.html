@@ -1,0 +1,109 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="top">
+        <ion-tab-button routerLink="/tabs/account/reglages" class="reglages">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-tab-button>
+        <ion-tab-button routerLink="/tabs/account/add-post" class="add-post">
+          <ion-icon name="add-outline"></ion-icon>
+        </ion-tab-button>
+        <h3>Doggy</h3>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+  <ion-toolbar class="head">
+    <ion-avatar slot="end">
+      <ion-img src="https://www.techno-science.net/illustration/Definition/inconnu/a/American-Pit-Bull-Terrier---Seated.jpg"></ion-img>
+    </ion-avatar>
+
+    <div class="space-around">
+      <div class="atuality">
+        <ion-badge color="warning" mode="ios" id="followings">55</ion-badge>
+        <p><a routerLink="/tabs/account/abonnements">Abonnements</a></p>
+      </div>
+      <div class="atuality">
+        <ion-badge color="warning" mode="ios" id="followers">560</ion-badge>
+        <p><a routerLink="/tabs/account/abonnes">Abonnés</a></p>
+      </div>
+      <!--<div class="atuality">
+        <ion-badge color="warning" mode="ios" id="status">102</ion-badge>
+        <p>publications</p>
+      </div>-->
+    </div>
+    <div class="contours">
+      <ion-button size="small" class="tof">
+        <ion-icon name="camera-outline"></ion-icon>
+      </ion-button>
+
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="ion-text-center">
+    <ion-row>
+      <ion-col >
+        <div>
+          <ion-card>
+            <ion-item lines="none">
+              <ion-avatar slot="start">
+                <ion-img src="https://www.techno-science.net/illustration/Definition/inconnu/a/American-Pit-Bull-Terrier---Seated.jpg"></ion-img>
+              </ion-avatar>
+              <ion-label>
+                <h4><b>Doggy</b></h4>
+                <p>Il y'a 25 min</p>
+              </ion-label>
+            </ion-item>
+            <ion-item lines="none" class="tweet">
+              <ion-label text-wrap>
+                "Notre peur la plus profonde …
+                n’est pas que nous ne soyons pas à la hauteur,
+                Notre peur la plus profonde est que nous sommes puissants au-delà de toutes limites.
+                C’est notre propre lumière et non notre obscurité qui nous effraie le plus."
+              </ion-label>
+            </ion-item>
+            <ion-img class="tweet-img" src="https://resize-elle.ladmedia.fr/rcrop/638,,forcex/img/var/plain_site/storage/images/societe/l-actu-en-images/citations-de-nelson-mandela/88817675-1-fre-FR/20-citations-positives-et-inspirantes-de-Nelson-Mandela.jpg"></ion-img>
+
+            <ion-button size="small" fill="clear" color="warning">
+              <ion-icon name="chatbox-ellipses-outline" slot="start"></ion-icon>
+              22
+            </ion-button>
+            <ion-button size="small" fill="clear" color="warning" >
+              <ion-icon name="heart-outline"></ion-icon>
+              255
+            </ion-button>
+            <ion-button size="small" fill="clear" color="warning">
+              <ion-icon name="repeat-outline"></ion-icon>
+              35
+            </ion-button>
+          </ion-card>
+
+        </div>
+        <div>
+          <ion-card>
+            <ion-item lines="none">
+              <ion-avatar slot="start">
+                <ion-img src="https://www.techno-science.net/illustration/Definition/inconnu/a/American-Pit-Bull-Terrier---Seated.jpg"></ion-img>
+              </ion-avatar>
+              <ion-label>
+                <h4><b>Doggy</b></h4>
+                <p>Il y'a 45 min</p>
+              </ion-label>
+            </ion-item>
+            <ion-item lines="none" class="tweet">
+              <ion-label text-wrap>
+                "Notre peur la plus profonde …
+                n’est pas que nous ne soyons pas à la hauteur,
+                Notre peur la plus profonde est que nous sommes puissants au-delà de toutes limites.
+                C’est notre propre lumière et non notre obscurité qui nous effraie le plus."
+              </ion-label>
+            </ion-item>
+          </ion-card>
+        </div>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

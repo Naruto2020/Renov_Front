@@ -1,0 +1,104 @@
+/*#titre {
+  position: absolute;
+  left: 80%;
+}*/
+
+h3 {
+  font-weight: bold;
+  color: black;
+}
+ion-avatar {
+  border: solid 2px gray;
+}
+
+/*ion-content {
+  --background: url("../../assets/icon/viktor-forgacs-aPC8ygu3bWA-unsplash.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  --overflow: hidden;
+}*/
+
+.reglages {
+  position: absolute;
+  left: 2%;
+}
+.reglages ion-icon {
+  font-size: 2em;
+}
+
+.add-post {
+  position: absolute;
+  left: 15%;
+}
+.add-post ion-icon {
+  font-size: 2em;
+}
+
+.space-around {
+  display: flex;
+  font-size: 0.8em;
+  justify-content: space-around;
+}
+.actuality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+ion-badge {
+  font-size: 0.8em;
+}
+#followings {
+  margin-left: 22px;
+  margin-top: 10px;
+}
+#followers {
+  margin-left: 7px;
+  margin-top: 10px;
+}
+#status {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+h4 {
+  margin: 0px;
+}
+.tweet {
+  margin: -3px;
+}
+
+.tweet ion-label {
+  line-height: 1 !important;
+  font-size: 15px;
+  margin: 6px 0px 6px 0px !important;
+  min-height: 34px;
+}
+
+.tweet-img {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.contours {
+  border: solid 2px gray;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  position: absolute;
+  right: 1.5%;
+  top: 65%;
+  background-color: #3880ff;
+}
+.tof {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.3em;
+  position: absolute;
+  right: -28%;
+  top: -25%;
+}

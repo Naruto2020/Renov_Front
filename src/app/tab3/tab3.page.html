@@ -1,17 +1,91 @@
-<ion-header [translucent]="true">
+<ion-header >
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button routerLink="/tabs/account" text="" color="warning"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Magasin</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-grid class="ion-text-center">
+    <ion-row>
+      <ion-col size="6">
+        <div>
+          <a routerLink="">
+            <ion-card>
+              <p id="articles">Jardin&Térra </p>
+              <ion-img src="../../assets/icon/cameron-smith-28c3pajQlyI-unsplash.jpg"></ion-img>
+            </ion-card>
+          </a>
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div>
+          <a routerLink="">
+            <ion-card>
+              <p id="articles">cuisine&Equip</p>
+              <ion-img src="../../assets/icon/ralph-ravi-kayden-JDBVXignFdA-unsplash01.jpg"></ion-img>
+            </ion-card>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+          </a>
+
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <div>
+          <a routerLink="">
+            <ion-card>
+              <p id="articles">Dressing&Ran</p>
+              <ion-img src="../../assets/icon/roberto-nickson-ZXbDeof0nlQ-unsplash.jpg"></ion-img>
+            </ion-card>
+
+          </a>
+
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div>
+          <a routerLink="">
+            <ion-card>
+              <p id="articles">Déco&Luminai</p>
+              <ion-img src="../../assets/icon/etienne-girardet-NGb91VwnOWY-unsplash.jpg"></ion-img>
+            </ion-card>
+
+          </a>
+
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <div>
+          <a routerLink="">
+            <ion-card>
+              <p id="articles">salle de bains</p>
+              <ion-img src="../../assets/icon/claire-rendall-8yVQvIeO4t8-unsplash.jpg"></ion-img>
+            </ion-card>
+
+          </a>
+
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div>
+          <a routerLink="">
+            <ion-card>
+              <p id="articles">Carrelages Sol</p>
+              <ion-img src="../../assets/icon/possessed-photography-iMtekZ_0WLg-unsplash.jpg"></ion-img>
+            </ion-card>
+
+          </a>
+
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!--<app-explore-container name="Tab 2 page"></app-explore-container>-->
 </ion-content>

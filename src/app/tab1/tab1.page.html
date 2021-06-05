@@ -1,17 +1,28 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-tabs>
+      <ion-tab-bar slot="top">
+        <ion-label id="titre">Crafts&jo&#966;</ion-label>
+        <ion-tab-button tab="actu"  class="actu">
+          <ion-icon name="search-circle-outline"></ion-icon>
+        </ion-tab-button>
+        <ion-tab-button  routerLink="/tabs/account" class="account">
+          <ion-icon name="person-circle"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+  <ion-toolbar>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <!--<ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header>-->
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!--<app-explore-container name="Tab 1 page"></app-explore-container>-->
 </ion-content>

@@ -20,6 +20,50 @@ const routes: Routes = [
         loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
       },
       {
+        path: 'tab4',
+        loadChildren: () => import('../tab4/tab4.module').then( m => m.Tab4PageModule)
+      },
+      {
+        path: 'account',
+        children:[
+          {
+            path:'',
+            loadChildren: () => import('../account/account.module').then( m => m.AccountPageModule)
+          },
+          {
+            path: 'reglages',
+            loadChildren: () => import('../reglages/reglages.module').then( m => m.ReglagesPageModule)
+          },
+          {
+            path: 'add-post',
+            loadChildren: () => import('../add-post/add-post.module').then( m => m.AddPostPageModule)
+          },
+          {
+            path: 'relations',
+            loadChildren: () => import('../relations/relations.module').then( m => m.RelationsPageModule)
+          },
+          {
+            path: 'abonnes',
+            loadChildren: () => import('../abonnes/abonnes.module').then( m => m.AbonnesPageModule)
+          },
+          {
+            path: 'abonnements',
+            loadChildren: () => import('../abonnements/abonnements.module').then( m => m.AbonnementsPageModule)
+          },
+          {
+            path: 'suggestions',
+            loadChildren: () => import('../suggestions/suggestions.module').then( m => m.SuggestionsPageModule)
+          },
+          {
+            path: '',
+            redirectTo: '/tabs/account',
+            pathMatch: 'full'
+
+          },
+        ]
+      },
+
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
